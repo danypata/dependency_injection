@@ -77,6 +77,6 @@ class _HomeScreenState extends State<HomeScreen> {
         onPressed: () {
           context.read<HomeBloc>().add(HomeEvent.oneMoreFunFact());
         },
-        child: const Text("Hit me baby one more time"));
+        child: const Text("Get me the fact!"));
   }
 }
